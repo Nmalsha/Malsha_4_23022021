@@ -99,9 +99,7 @@ a:hover {
     background-attachment: fixed;
 }
 
-.d-bloc {
-    color: rgba(255, 255, 255, .7);
-}
+
 
 .d-bloc button:hover {
     color: rgba(255, 255, 255, .9);
@@ -119,22 +117,7 @@ a:hover {
     border-color: rgba(255, 255, 255, .2);
 }
 
-.d-bloc .a-btn,
-.d-bloc .navbar a,
-.d-bloc .navbar-brand,
-.d-bloc a .icon-sm,
-.d-bloc a .icon-md,
-.d-bloc a .icon-lg,
-.d-bloc a .icon-xl,
-.d-bloc h1 a,
-.d-bloc h2 a,
-.d-bloc h3 a,
-.d-bloc h4 a,
-.d-bloc h5 a,
-.d-bloc h6 a,
-.d-bloc p a {
-    color: rgba(255, 255, 255, .6);
-}
+
 
 .d-bloc .a-btn:hover,
 .d-bloc .navbar a:hover,
@@ -677,7 +660,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 13px;
 }
 
 .tight-width-whitespace {
@@ -692,7 +675,7 @@ p {
 
 .cta-hero {
     margin-top: 22px;
-    color: #FFFFFF!important;
+    
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
     font-size: 16px;
@@ -736,7 +719,8 @@ h4 {
 }
 
 .white {
-    color: #FFFFFF!important;
+    color: #fff !important;
+    font-size: 14px;
 }
 
 .portfolio-thumb {
@@ -776,11 +760,21 @@ h4 {
 
 .tc-white {
     color: #F3976C!important;
+    
+
+}
+.add-bg{
+    background-color: rgba(165, 147, 99, 0.7);
+    padding: 40px;
+    font-weight: 800;
+   
+    align-items: center;
+    display: grid;
 }
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+  
 }
 
 .btn-atomic-tangerine:hover {
@@ -790,6 +784,7 @@ h4 {
 
 .ltc-white {
     color: #FFFFFF!important;
+    font-size: 14px;
 }
 
 .ltc-white:hover {
