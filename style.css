@@ -42,6 +42,7 @@ a:hover {
 .bloc .container {
     padding-left: 0;
     padding-right: 0;
+    
 }
 
 .bloc-lg {
@@ -337,14 +338,20 @@ a:hover {
 .nav-invert .navbar .nav {
     float: left;
 }
+.background{
+    background-color: #3f3e3e;
+    padding: 40px 40px 40px 40px;
 
+}
 .nav-invert .navbar-header,
 .nav-invert .navbar-brand {
     float: right;
     position: relative;
     z-index: 2;
 }
-
+.color_text{
+    color: #ffffff !important;
+}
 @media (min-width: 768px) {
     .site-navigation {
         position: absolute;
@@ -491,6 +498,7 @@ button {
 .form-control {
     border-color: rgba(0, 0, 0, .1);
     box-shadow: none;
+    border: 1px solid;
 }
 
 .scrollToTop {
@@ -636,11 +644,11 @@ a {
     font-weight: 400;
     color: #575757!important;
 }
-
+/*
 .container {
     max-width: 1000px;
 }
-
+*/
 .hero-bloc-text {
     font-size: 38px;
 }
@@ -737,7 +745,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: #3f3e3e;
     padding: 40px 40px 40px 40px;
 }
 
@@ -758,13 +766,9 @@ h4 {
     background-color: #F3976C;
 }
 
-.tc-white {
-    color: #F3976C!important;
-    
 
-}
 .add-bg{
-    background-color: rgba(165, 147, 99, 0.7);
+    
     padding: 40px;
     font-weight: 800;
    
@@ -797,6 +801,10 @@ h4 {
 
 .ltc-atomic-tangerine:hover {
     color: #c27956!important;
+}
+.tc-white {
+    color: #FFFFFF!important;
+    font-size: 14px;
 }
 
 .icon-dark-slate-blue {
