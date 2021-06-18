@@ -208,7 +208,7 @@ a:hover {
 .l-bloc .navbar a,
 .l-bloc .navbar-brand,
 .l-bloc a .icon-sm,
-.l-bloc a .icon-md,
+
 .l-bloc a .icon-lg,
 .l-bloc a .icon-xl,
 .l-bloc h1 a,
@@ -343,7 +343,7 @@ a:hover {
     float: left;
 }
 .background{
-    background-color: #3f3e3e;
+    background-color: #6c4949;
     padding: 40px 40px 40px 40px;
 
 }
@@ -761,7 +761,7 @@ h4 {
 }
 
 .black-background {
-    background-color: #3f3e3e;
+    background-color: #6c4949;
     padding: 40px 40px 40px 40px;
 }
 
