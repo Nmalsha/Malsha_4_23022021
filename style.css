@@ -346,6 +346,9 @@ a:hover {
 .background{
    
     padding: 40px 40px 40px 40px;
+    
+}
+.h1backgroung{
     background-color: #291d2b;
 }
 .nav-invert .navbar-header,
