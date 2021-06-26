@@ -34,9 +34,7 @@ a:hover {
     clear: both;
     background: 50% 50% no-repeat;
     
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+    
     background-size: cover;
     position: relative;
 }
@@ -58,7 +56,7 @@ a:hover {
 .bloc-sm {
     padding: 20px 50px;
 }
-
+/*
 .bg-center,
 .bg-l-edge,
 .bg-r-edge,
@@ -74,7 +72,7 @@ a:hover {
     -o-background-size: auto!important;
     background-size: auto!important;
 }
-
+*/
 .bg-repeat {
     background: repeat;
 }
@@ -358,7 +356,8 @@ a:hover {
     z-index: 2;
 }
 .color_text{
-    color: #ffffff !important;
+    color: black!important;
+    font-weight: bold;
 }
 .last_row{
     display: flex;
@@ -373,7 +372,7 @@ footer ul li a:hover{
         top: 50%;
         right: 20px;
         transform: translate(0, -50%);
-        -webkit-transform: translateY(-50%);
+        
     }
     .nav > li .dropdown-menu a,
     .nav > li .dropdown-menu a:hover {
@@ -557,12 +556,12 @@ a[data-lightbox]:hover::before {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    -webkit-transform: translateY(-50%);
+    
 }
 
 a[data-lightbox]:hover img {
     opacity: 0.6;
-    -webkit-animation-fill-mode: none;
+  
     animation-fill-mode: none;
 }
 
@@ -905,7 +904,7 @@ h4 {
     }
 }
 
-@media only screen and (min-width: 1024px) and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+@media only screen and (min-width: 1024px) and (max-width: 1366px)  {
     .b-parallax {
         background-attachment: scroll;
     }
@@ -932,8 +931,10 @@ h4 {
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding: 0 20px;
+        /*
         padding-left: constant(safe-area-inset-left);
         padding-right: constant(safe-area-inset-right);
+      */
     }
 }
 
@@ -968,8 +969,7 @@ h4 {
     .site-navigation {
         position: inherit;
         transform: none;
-        -webkit-transform: none;
-        -ms-transform: none;
+        
     }
     .nav > li {
         margin-top: 0;
@@ -1010,7 +1010,7 @@ h4 {
     .navbar-collapse {
         padding: 0;
         overflow-x: hidden;
-        -webkit-box-shadow: none;
+       
         box-shadow: none;
     }
     .navbar-brand img {
