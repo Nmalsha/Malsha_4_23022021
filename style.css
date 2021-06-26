@@ -355,7 +355,7 @@ a:hover {
     position: relative;
     z-index: 2;
 }
-.color_text{
+.color_texttoblack{
     color: black!important;
     font-weight: bold;
 }
